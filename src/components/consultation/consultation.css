@@ -1,0 +1,72 @@
+.consultation_container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+    background: rgba(189, 221, 246, 0.53);
+    padding: 20px 70px 40px 70px;
+
+}
+.consultation_title{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+    margin-top: 0;
+}
+.consultation_form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.consultation_form_el{
+    display: flex;
+    background: linear-gradient(180deg, #BDDDF6 0%, #B4E2F3 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 300px;
+    padding: 20px 40px;
+}
+.consultation_form_icon{
+padding-right: 15px;
+}
+.consultation_form_input{
+    background: none;
+    border: none;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 40px; */
+    font-size: 35px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.consultation_form_input:focus{
+    outline: none;
+}
+.consultation_form_submit_btn{
+    background: #00E676;
+    border-radius: 20px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding: 3px 20px;
+    transition: all 0.2s;
+}
+.consultation_form_submit_btn:hover{
+    box-shadow: 4px 9px 8px rgba(0, 0, 0, 0.25);
+    /* box-shadow: inset 4px 9px 8px rgba(0, 0, 0, 0.25); */
+    background: rgb(45, 144, 225);
+}
+.consultation_form_submit_btn:hover
+.consultation_form_input:-webkit-autofill,
+.consultation_form_input:-webkit-autofill:hover, 
+.consultation_form_input:-webkit-autofill:focus, 
+.consultation_form_input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #BDDDF6 inset !important;
+}

@@ -1,0 +1,43 @@
+.diabet_container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px 0 150px;
+    align-items: center;
+}
+.diabet_main_text{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+    margin: 0;
+
+}
+.diabet_under_text{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    
+}
+.diabet_content{
+display: flex;
+justify-content: space-between;
+}
+.diabet_image{
+padding-right: 50px;
+width: 424.93px;
+height: 300px;
+}
+.diabet_explain{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0;
+}

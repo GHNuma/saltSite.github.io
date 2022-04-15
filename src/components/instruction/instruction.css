@@ -1,0 +1,79 @@
+.instruction_container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    align-items: center;
+    background: radial-gradient(50% 50% at 50% 65%, #BDDDF6 0%, rgba(136, 216, 233, 0) 100%);
+
+}
+.instruction_main_text{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    color: #000000;
+}
+.instruction_content{
+    display: flex;
+    align-items: center;
+}
+.instruction_step{
+    display: flex;
+    flex-direction: column;
+ 
+}
+/* .instruction_image{
+   
+} */
+.instruction_explain{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.instruction_arrow_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.instruction_arrow_text{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin: 0;
+}
+.instruction_arrow{
+    font-size: 165px;
+    line-height: 0;
+}
+/* .instruction_arrow{
+    display: block;
+    margin: 30px auto;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    transform: rotate(135deg);
+}
+.instruction_arrow::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: black;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
+} */
+
+.horizontal_shadow{
+
+}

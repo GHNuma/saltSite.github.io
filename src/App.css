@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+
+html,body{
+margin: 0;
+padding: 0;
+display: block;
+margin-top: 15px;
+}
+
+body{
+    height: 100vh;
+}
+* {
+    /* margin: 0; */
+}

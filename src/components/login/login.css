@@ -1,0 +1,113 @@
+.login_container{
+    background-image: url('../../../public/login_background.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background-size: 100% 100%;
+}
+.login_form{
+    background: linear-gradient(180deg, #E3F4F8 0%, #D3F0F7 100%);
+    box-shadow: 0px 20px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    max-width:30%;
+    width: auto;
+    height:auto;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 70px;
+}
+.login_form_title{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    color: #000000;
+    margin: 30px 0 50px 0;
+}
+.login_form_el{
+    background: linear-gradient(180deg, #D2E5F1 0%, #BFD5DA 100%);
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 300px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.login_form_icon{
+    padding-right: 15px;
+}
+.login_form_input{
+    background: none;
+    border: none;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    overflow: auto;
+}
+.login_form_input:focus{
+    outline: none;
+}
+.login_form_login{
+    background-color: transparent;
+    border: none;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+.login_button_container{
+    border-radius: 50%;
+    background-color: #76F57B;
+    width: 85px;
+    height: 67px;
+    text-align: center;
+}
+.login_button{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 58px;
+}
+.login_form_forgot_password{
+    background-color: transparent;
+    border: none;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+.login_form_register{
+    background-color: transparent;
+    border: none;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.login_form_forgot_password:hover{
+    color: rgba(59, 111, 222, 0.502);
+}
+.login_form_register:hover{
+    color: rgba(59, 111, 222, 0.502);
+}

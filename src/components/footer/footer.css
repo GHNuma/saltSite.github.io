@@ -1,0 +1,136 @@
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    background: #A7D2F3;
+    padding-left:60px ;
+    padding-top: 20px;
+}
+.footer_each_row{
+    display: flex;
+}
+.main_row{
+    justify-content: space-between;
+}
+.footer_logo_content{
+    display: flex;
+}
+.footer_logo{
+    /* width: 116.52px;
+    height: 140.83px; */
+    padding-right: 40px;
+}
+.footer_logo_info{
+
+}
+.footer_site_name{
+    margin: 0;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    color: #000000;
+}
+hr{
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    height: 1px;
+    color: none;
+    border: none;
+}
+.footer_slang{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top:12px;
+}
+.social_medias_container{
+    display: flex;
+}
+.each_social_media{
+    margin: 0 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.whatsapp{
+    /* background:linear-gradient(45deg, #128C7E, #075E54, #25D366, #34B7F1); */
+    background:#25D366;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    display:table;
+}
+.whatsapp:hover{
+    margin-top: -6px;
+    text-shadow: -25px 25px 4px rgba(37, 211, 101, 0.60);
+}
+.instagram{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    display:table;
+}
+.instagram:hover{
+    margin-top: -6px;
+    text-shadow: -25px 25px 4px rgba(232, 69, 145, 0.311);
+}
+.twitter{
+    background:#1DA1F2;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    display:table;
+}
+.twitter:hover{
+    margin-top: -6px;
+    text-shadow: -25px 25px 4px rgba(113, 194, 226, 0.6);
+}
+.telegram{
+    background:#16AFEB;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    display:table;
+}
+.telegram:hover{
+    margin-top: -6px;
+    text-shadow: -25px 25px 4px rgba(113, 194, 226, 0.6);
+    
+}
+.info_row{
+
+}
+.admin_info_container{
+    display: flex;
+    align-items: center;
+}
+.admin_info_container:nth-child(1){
+    padding-right:120px ;
+
+}
+.admin_info_icon{
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+.admin_info_text{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.created_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.created_icon{
+    padding-right: 5px;
+}
+.created_text{
+
+}
